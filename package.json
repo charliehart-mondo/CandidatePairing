@@ -1,0 +1,23 @@
+{
+  "name": "javascript-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha --watch --require \"@babel/register\"",
+    "start": "babel-node ./index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
